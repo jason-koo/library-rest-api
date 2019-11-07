@@ -1,0 +1,6 @@
+#list li{
+    display: inline-block;
+    width: auto;
+    zoom: 1;
+    padding: 2%;
+}
