@@ -26,7 +26,7 @@ exports.create_new_item = (req, res, next) => {
         _id: new mongoose.Types.ObjectId(),
         name: req.body.name,
         type: req.body.type,
-        period: req.body.period,
+        loanPeriod: req.body.loanPeriod,
         quantity: req.body.quantity
     });
     item

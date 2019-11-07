@@ -13,5 +13,36 @@
         <h3>Get All Items</h3>
         <button onclick="getAllItems()">Submit</button>
     </div>
+    <div>
+        <div id="add">
+            <h3>Add new item</h3>
+            Item Name: <input type="text" id="name">
+            Item Type: <input type="text" id="type">
+            Loan Period: <input type="number" id="period">
+            Quantity: <input type="number" id="quantity">
+            <button id="post" onclick="post()">Submit</button>
+        </div>
+    </div>
+    <div id="search">
+        Search by id:<input type="text" id="searchID">
+        <button onclick="search()">Search</button>
+        <ul id="list2">
+        </ul>
+    </div>
+    <div id="delete">
+        Delete item by id: <input type='text', id='itemID'>
+        <button onclick="deleteItem()">Delete</button>
+    </div>
+    <div id="updateQuantity">
+        Update item quantity by id: <input type='text', id='updateID'>
+        New quantity amount: <input type="number", id="updateQuantityNum">
+        <button onclick="updateQuantity()">Update</button>
+    </div>
+    <div id="updateLoadPeriod">
+        Update item loan period by id: <input type='text', id='loanID'>
+        New load period: <input type="number", id="loanVal">
+        <button onclick="updateLoanPeriod()">Update</button>
+    </div>
+
 </body>
 </html>
