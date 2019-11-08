@@ -10,7 +10,7 @@ function getAllItems() {
             }
         }
     };
-    xmlhttp.open("GET", "http://localhost:1234/library/list", true);
+    xmlhttp.open("GET", "http://ec2-3-82-194-14.compute-1.amazonaws.com:1234/library/list", true);
     xmlhttp.send();
 }
 
